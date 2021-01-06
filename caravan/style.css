@@ -137,7 +137,7 @@ main {
 .categories-text {
   padding-bottom: 5px;
   border-bottom: 1px solid #f7f7f7;
-  margin-bottom: 5x;
+  margin-bottom: 5px;
 }
 .popular-text:last-child,
 .categories-text:last-child {
@@ -185,7 +185,7 @@ main {
   display: inline-block;
   width: 30px;
   height: 30px;
-  margin: o 5px;
+  margin: 0 5px;
   color: #fff;
   background-color: #acabab;
   border-radius: 3px;
@@ -201,4 +201,53 @@ footer {
 }
 .footer-text {
   color: #fff;
+}
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    display: block;
+  }
+  .nav-list-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .main-visual-content {
+    width: 100%;
+  }
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .blog-text {
+    width: 50%;
+  }
+  .blog-image {
+    width: 50%;
+  }
+  .category {
+    display: none;
+  }
+  .social {
+    display: none;
+  }
+  .sidebar {
+    margin-top: 50px;
+    width: 100%;
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd) {
+    margin-right: 3%;
+  }
 }
